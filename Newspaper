@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+    {
+    int dead=2000;
+    int injured=3000;
+    int safe=10000;
+    printf("TSUNAMI REPORT OF JAPAN/n");
+        printf("the number of people/n");
+    printf("1)dead:%d/n",dead);
+    printf("2)injured:%d/n, injured/n");
+    printf("3)safe:%d/n,safe/n");
+    printf("please help the people who are suffering !!!/n");
+    return 0;
+    }
