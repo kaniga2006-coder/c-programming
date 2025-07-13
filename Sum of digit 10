@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() 
+{
+int n, sum = 0;
+printf("Enter a number (more than 2 digits): ");
+scanf("%d", &n);
+if (n < 100) 
+{
+printf("Invalid input. Number must be more than 2 digits.\n");
+return 0;
+}
+while (n > 0) {
+sum += n % 10;
+n = n / 10;
+}
+printf("Sum of digit is %d\n", sum);
+return 0;
+}
+
+
+
